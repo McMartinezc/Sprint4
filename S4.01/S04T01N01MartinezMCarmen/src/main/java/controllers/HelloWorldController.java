@@ -1,8 +1,8 @@
-package controllers;
+package cat.itacademy.barcelonactiva.Martinez.MCarmen.s04.t01.n01.S04T01N01MartinezMCarmen.controllers;
 
-        import java.util.Optional;
+import java.util.Optional;
 
-        import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloWorldController {
@@ -19,4 +19,3 @@ public class HelloWorldController {
     }
 
 }
-
