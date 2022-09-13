@@ -9,13 +9,13 @@ public class HelloWorldController {
 
     @GetMapping("/helloWorld")
     public String saluda(@RequestParam(value = "name", defaultValue = "UNKNOWN")String name) {
-        return String.format("Hello %s!, estàs executant un projecte Maven", name);
+        return "Hello " +name+", estàs executant un projecte Maven";
     }
 
     @GetMapping({"/helloWorld2","/helloWorld2/{name}"})
     public String saluda2(@PathVariable()Optional<String>name) {
         String nameOpcional = name.orElse("UNKNOWN");
-        return String.format("Hello %s!, estàs executant un projecte Maven", nameOpcional);
+        return "Hello " +nameOpcional+", estàs executant un projecte Maven";
     }
 
 }
