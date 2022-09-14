@@ -2,6 +2,8 @@
 
 TASCA S4.01. INTRODUCCIÓ SPRING
 
+https://www.arteco-consulting.com/post/tutorial-de-maven
+
 https://spring.io/quickstart
 
 https://www.baeldung.com/spring-pathvariable
