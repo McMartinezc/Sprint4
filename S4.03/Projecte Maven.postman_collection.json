@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "cf2367c3-ee88-4a5e-903c-047584902ec4",
+		"name": "Projecte Maven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23332397"
+	},
+	"item": [
+		{
+			"name": "RequestParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port Maven}}/helloWorld",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port Maven}}",
+					"path": [
+						"helloWorld"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "mc",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "KNOWN",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PathVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port Maven}}/helloWorld2",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port Maven}}",
+					"path": [
+						"helloWorld2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "mc",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "KNOWN",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

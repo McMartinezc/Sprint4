@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "8c4a698a-8043-4adc-8815-3f804e0e8a25",
+		"name": "Projecte Gradle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23332397"
+	},
+	"item": [
+		{
+			"name": "RequestParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port Gradle}}/helloWorld",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port Gradle}}",
+					"path": [
+						"helloWorld"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "KNOWN",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "mc",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PathVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Servidor}}:{{Port Gradle}}/helloWorld2",
+					"host": [
+						"{{Servidor}}"
+					],
+					"port": "{{Port Gradle}}",
+					"path": [
+						"helloWorld2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "mc",
+							"disabled": true
+						},
+						{
+							"key": "name ",
+							"value": "KNOWN",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
