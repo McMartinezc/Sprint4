@@ -14,6 +14,3 @@ https://learning.postman.com/docs/sending-requests/variables/
 
 https://abi.gitbook.io/net-core/4.-creando-tu-primer-servicio/4.4-probando-tus-servicios-con-postman
 
-TASCA S4.02. Api Rest amb Spring boot
-
-
