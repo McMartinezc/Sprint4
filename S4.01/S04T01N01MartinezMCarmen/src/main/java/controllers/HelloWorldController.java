@@ -4,11 +4,11 @@ import java.util.Optional;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@RestController //Servicio REST
 public class HelloWorldController {
 
-    @GetMapping("/helloWorld")
-    public String saluda(@RequestParam(value = "name", defaultValue = "UNKNOWN")String name) {
+    @GetMapping("/helloWorld") //Obtener datos
+    public String saluda(@RequestParam(value = "name", defaultValue = "UNKNOWN")String name) { 
         return "Hello " +name+", estàs executant un projecte Maven";
     }
 
