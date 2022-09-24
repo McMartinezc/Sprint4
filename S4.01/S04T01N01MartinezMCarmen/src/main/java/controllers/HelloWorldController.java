@@ -13,7 +13,7 @@ public class HelloWorldController {
     }
 
     @GetMapping({"/helloWorld2","/helloWorld2/{name}"})
-    public String saluda2(@PathVariable()Optional<String>name) {
+    public String saluda2(@PathVariable()Optional<String>name) { //Gestiona una variable de ruta no obligatoria
         String nameOpcional = name.orElse("UNKNOWN");
         return "Hello " +nameOpcional+", estàs executant un projecte Maven";
     }
