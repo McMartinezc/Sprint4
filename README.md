@@ -1,10 +1,12 @@
-# Sprint4
+# Sprint4. JAVA IDE INTELLIJ
 
 Aquest exercici t'introduirà al framework SPRING. 
 
 Començaràs a fer servir el protocol HTTP, a usar Postman, i a descobrir com gestionar dependències amb Maven i Gradle.
 
 TASCA S4.01. INTRODUCCIÓ SPRING
+
+RECUROS UTILITZATS: 
 
 https://mvnrepository.com/
 
