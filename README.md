@@ -1,4 +1,5 @@
-# Sprint4. JAVA IDE INTELLIJ
+# Sprint4. 
+JAVA. IDE INTELLIJ
 
 Aquest exercici t'introduirà al framework SPRING. 
 
