@@ -1,23 +1,26 @@
-# Sprint4. 
-JAVA. IDE INTELLIJ
+# TASCA S4.01. INTRODUCCIÓ SPRING
 
 Aquest exercici t'introduirà al framework SPRING. 
 
 Començaràs a fer servir el protocol HTTP, a usar Postman, i a descobrir com gestionar dependències amb Maven i Gradle.
 
-TASCA S4.01. INTRODUCCIÓ SPRING
+## Recursos 🛠️
 
-RECUROS UTILITZATS: 
+_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-https://mvnrepository.com/
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-https://www.arteco-consulting.com/post/tutorial-de-maven
 
-https://spring.io/quickstart
+*[Maven Repository](https://mvnrepository.com/)
 
-https://www.baeldung.com/spring-pathvariable
+*[Tutorial Maven](https://www.arteco-consulting.com/post/tutorial-de-maven)
 
-https://learning.postman.com/docs/sending-requests/variables/
+*[Spring](https://spring.io/quickstart)
 
-https://abi.gitbook.io/net-core/4.-creando-tu-primer-servicio/4.4-probando-tus-servicios-con-postman
+*[baeldung](https://www.baeldung.com/spring-pathvariable)
 
+*[Postman](https://learning.postman.com/docs/sending-requests/variables/)
+
+*[Postman](https://abi.gitbook.io/net-core/4.-creando-tu-primer-servicio/4.4-probando-tus-servicios-con-postman)
